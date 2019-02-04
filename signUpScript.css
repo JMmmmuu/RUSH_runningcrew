@@ -1,3 +1,24 @@
 * {
     background: #1B1B1b;
 }
+body {
+    background: #1B1B1B;
+}
+
+.navbar-inverse {
+    border-width: 0;
+    margin: 0;
+}
+
+.content {
+    margin-top: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10%;
+
+    color: #f3f3f3;
+}
+
+#name-group {
+    padding-top: 15px;
+}
