@@ -1,22 +1,25 @@
 body {
     text-align: center;
-}
-.navbar-inverse {
-    background: #1B1B1B;
-    border-color: #1B1B1B;
-}
-
-body {
     background: #1B1B1B;
     color: white;
 }
+.navbar-inverse {
+    background: #1B1B1B;
+    border-width: 0px;
+}
 
 .content {
-    /*padding-top: 25%;*/
-    position: absolute;
-    height: 200px;
-    width: 400px;
-    margin: -100px 0 0 -200px;
-    top: 30%;
-    left: 50%;
+    /* center the content */
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10%;
+}
+
+.fit {
+    max-width: 392px;
+    width: 70%;
+    height: auto;
 }
