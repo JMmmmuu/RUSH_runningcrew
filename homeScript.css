@@ -1,4 +1,22 @@
-h1 {
+body {
     text-align: center;
 }
+.navbar-inverse {
+    background: #1B1B1B;
+    border-color: #1B1B1B;
+}
 
+body {
+    background: #1B1B1B;
+    color: white;
+}
+
+.content {
+    /*padding-top: 25%;*/
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    margin: -100px 0 0 -200px;
+    top: 30%;
+    left: 50%;
+}
