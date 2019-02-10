@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background: #1B1B1B;
+    color: white;
+}
+.navbar-inverse {
+    background: #1B1B1B;
+    border-width: 0px;
+}
+
+.content {
+    /* center the content */
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10%;
+
+    opacity: 0;
+    font-family: ACB;
+    font-size: 45px;
+}
+
+.fit {
+    max-width: 392px;
+    width: 70%;
+    height: auto;
+}
+
+@font-face { font-family: ACB; src: url('src/ADDCN___.TTF'); }
